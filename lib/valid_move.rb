@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  be_between = between?(1,9)
+  if between?(1,9)
   if (board[index] == be_between && board[index] == "" || board[index]== " " || board[index] == nil)
   true 
 end
